@@ -1,4 +1,4 @@
-const urlBase = 'https://backend-eight-dun.vercel.app/produtos';
+const urlBase = 'https://backend-six-pi-74.vercel.app/produtos';
 //const urlBase = 'https://localhost:3000/produtos';
 export async function gravarProduto(produto){
     const resposta = await fetch(urlBase,{
